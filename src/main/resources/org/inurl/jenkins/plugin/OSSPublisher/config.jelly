@@ -26,5 +26,11 @@
         <f:entry title="${%MaxRetries}" field="maxRetries">
             <f:textbox />
         </f:entry>
+        <f:entry title="${%AutoSign}" field="autoSign">
+            <f:checkbox/>
+        </f:entry>
+        <f:entry title="${%QYWechat}" field="qyWechat">
+            <f:textbox />
+        </f:entry>
     </f:advanced>
 </j:jelly>
